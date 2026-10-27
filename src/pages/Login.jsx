@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
-import { loginUser } from "../utils/Auth";
+import { loginUser } from "../utils/auth";
 import "./Signup.css";
 
 export default function Login() {
