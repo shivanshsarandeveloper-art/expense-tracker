@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Dashboard from "./Dashboard";
-import { getCurrentUser } from "./utils/Auth";
+import { getCurrentUser } from "./utils/auth";
 import Profile from "./pages/Profile";
 
 function ProtectedRoute({ children }) {
