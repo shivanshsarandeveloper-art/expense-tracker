@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
-import { registerUser } from "../utils/Auth";
+import { registerUser } from "../utils/auth";
 import "./Signup.css";
 
 export default function Signup() {
